@@ -11,4 +11,4 @@ Simulation: Dataset containing the simulated values of the SIR-model for each of
 
 Aggregated simulation: Dataset containing the national aggregate of the simulation. This dataset contains data for figure 2.
 
-Do-file: This is the do-file used in the project. 
+Do-file: This is the do-file used in the project. Please note, that this do-file is created with inspiration from the online repository provided in [Hsiang (2020)]. 
