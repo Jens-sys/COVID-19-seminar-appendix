@@ -61,7 +61,7 @@ facial_masks_lag * _b[facial_masks_lag] ///
 if e(sample) 
 
 // predicting counterfactual growth for each obs
-predictnl y_counter = test_reg_12mar2020 * _b[test_reg_12mar2020] + test_reg_21apr2020 * _b[test_reg_21apr2020] + test_reg_12may2020 * _b[test_reg_12may2020] +  ///
+predictnl y_counter = test_reg_12mar2020 * _b[test_reg_12mar2020] + test_reg_21apr2020 * _b[test_reg_21apr2020] + test_reg_12may2020 * _b[test_reg_12may2020] + avg_temp_lag * _b[avg_temp_lag] +  ///
 _b[_cons] + __hdfe1__ + __hdfe2__ if e(sample), ci(lb_counter ub_counter) 
 
 // Calculate the combined effect:
