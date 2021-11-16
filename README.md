@@ -12,4 +12,6 @@ Dataset 3; Simulation: Dataset containing the simulated values of the SIR-model 
 
 Dataset 4; Aggregated simulation: Dataset containing the national aggregate of the simulation. This dataset contains data for figure 2.
 
+Dataset 5; Sensitivity analysis: Dataset containing estimated values of equation 6 for different weights of the variable 'business_closure'. This dataset contains data for figure 3 and for appendix figure 5 - 6. 
+
 Do-file: This is the do-file used in the project. Please note, that this do-file is created with inspiration from the online repository provided in [Hsiang (2020)]. 
